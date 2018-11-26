@@ -1,6 +1,9 @@
 from sklearn.preprocessing import Imputer
 from sklearn.linear_model import LinearRegression
-from sklearn.cross_validation import train_test_split
+'''module deprecated >>>from sklearn.cross_validation import train_test_split
+   use sklearn.model_selection 
+'''
+from sklearn.model_selection import train_test_split
 import numpy as np
 
 class MiceImputer(object):
